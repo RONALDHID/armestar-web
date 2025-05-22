@@ -1,3 +1,19 @@
+/* Centrar el mapa */
+.map {
+  display: flex;
+  justify-content: center; /* centra el iframe horizontalmente */
+  margin-top: 20px;        /* separa un poco del contenido de arriba */
+}
+
+.map iframe {
+  display: block;
+  width: 100%;
+  max-width: 600px;        /* puedes ajustar el ancho máximo a tu gusto */
+  height: 200px;           /* si quieres más alto, sube este valor */
+  border-radius: 8px;
+  border: 0;
+}
+
 /* 1. Asegúrate de que no haya overflow horizontal */
 html, body {
   margin: 0;
