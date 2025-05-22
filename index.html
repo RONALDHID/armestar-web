@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Armestar & Abogados</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Armestar & Abogados"/>
+    </div>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#abogados">Abogados</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Soluciones legales con experiencia y ética profesional</h1>
+    <p>Abogados Especialistas en Derecho Penal, Civil y Corporativo en Piura</p>
+    <a class="btn" href="https://wa.me/51968838848" target="_blank">Contáctanos por WhatsApp</a>
+  </section>
+
+  <section id="servicios" class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicio-grid">
+      <div><p>Derecho Penal y Procesal Penal</p></div>
+      <div><p>Derecho Civil</p></div>
+      <div><p>Derecho Laboral Privado</p></div>
+      <div><p>Derecho Societario y Corporativo</p></div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      Armestar & Abogados S.A.C. es una firma peruana que brinda asesoría jurídica integral desde el 2017. 
+      Somos especialistas en derecho civil y comercial, inmobiliario y laboral privado, ofreciendo atención personalizada 
+      y ética profesional.
+    </p>
+  </section>
+
+  <section id="abogados" class="abogados">
+    <h2>Nuestros Abogados</h2>
+    <div class="abogado-grid">
+      <div>
+        <img src="assets/abogado_1.jpg" alt="Cristian Armestar"/>
+        <h3>Cristian Armestar</h3><p>Derecho Civil</p>
+      </div>
+      <div>
+        <img src="assets/abogado_2.jpg" alt="Claudia Bobadilla"/>
+        <h3>Claudia Bobadilla</h3><p>Derecho Penal</p>
+      </div>
+      <div>
+        <img src="assets/abogado_3.jpg" alt="Rubén Atoche"/>
+        <h3>Rubén Atoche</h3><p>Derecho Corporativo</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctenos</h2>
+    <form action="mailto:armestarabogados@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" required/>
+      <input type="email" name="email" placeholder="Correo electrónico" required/>
+      <textarea name="mensaje" placeholder="Mensaje..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Armestar & Abogados - Piura</p>
+    <p>📍 Calle Tambogrande Mz T Lote 16-B, Urb. Monterrico – Piura</p>
+  </footer>
+</body>
+</html>
