@@ -79,8 +79,6 @@ nav a {
 }
 .team-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 30px;
-  justify-content: center; /* centra las columnas en el contenedor */
-  justify-items: center;   /* centra cada tarjeta dentro de su celda */
 }
 .team-card h3 {
   margin-top: 10px; font-size: 1.1rem; color: #0d1b2a;
