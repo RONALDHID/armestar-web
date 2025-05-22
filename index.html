@@ -2,76 +2,72 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Armestar & Abogados</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="top-bar">
-    <div class="container">
-      <span>📞 968838848</span>
-      <span>✉️ armestarabogados@gmail.com</span>
-      <span>⏰ Lun–Vie: 9am–6pm</span>
-    </div>
-  </div>
-  <header class="navbar">
-    <div class="container nav-flex">
-      <img src="assets/logo.png" alt="Logo Armestar" class="logo">
-      <nav><ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#equipo">Equipo</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-      </ul></nav>
-      <a href="https://wa.me/51968838848" class="cta-btn">WhatsApp</a>
-    </div>
+  <header class="nav-bar">
+    <img src="assets/logo.png" alt="Logo Armestar" class="logo">
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
+
   <section id="inicio" class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content container">
-      <h1>Defensa Legal Integral en Piura</h1>
-      <p>Más de 7 años brindando soluciones jurídicas personalizadas en Derecho Penal, Civil y Corporativo.</p>
-      <a href="#contacto" class="primary-btn">Solicitar Consulta</a>
+    <div class="hero-text">
+      <h1>Defensa legal especializada para cada situación</h1>
+      <p>Más de 7 años brindando soluciones jurídicas personalizadas en Piura</p>
+      <a href="https://wa.me/51968838848" class="btn">Habla con un abogado</a>
     </div>
   </section>
-  <section id="servicios" class="services section">
-    <div class="container">
-      <h2>Áreas de Práctica</h2>
-      <div class="service-grid">
-        <div class="service-card"><i class="fas fa-gavel"></i><h3>Derecho Penal</h3></div>
-        <div class="service-card"><i class="fas fa-balance-scale"></i><h3>Derecho Civil</h3></div>
-        <div class="service-card"><i class="fas fa-briefcase"></i><h3>Derecho Laboral</h3></div>
-        <div class="service-card"><i class="fas fa-building"></i><h3>Corporativo</h3></div>
+
+  <section id="servicios" class="section">
+    <h2>Áreas de Práctica</h2>
+    <ul class="services-list">
+      <li>⚖️ Derecho Penal y Procesal Penal</li>
+      <li>🏛️ Derecho Civil</li>
+      <li>📄 Derecho Laboral Privado</li>
+      <li>🏢 Derecho Societario y Corporativo</li>
+    </ul>
+  </section>
+
+  <section id="equipo" class="section team">
+    <h2>Nuestro Equipo</h2>
+    <div class="team-grid">
+      <div class="card">
+        <img src="assets/abogado_1.jpg" alt="Cristian Armestar">
+        <h3>Cristian Armestar</h3>
+        <p>Especialista en Derecho Civil</p>
+      </div>
+      <div class="card">
+        <img src="assets/abogado_2.jpg" alt="Claudia Bobadilla">
+        <h3>Claudia Bobadilla</h3>
+        <p>Especialista en Derecho Penal</p>
+      </div>
+      <div class="card">
+        <img src="assets/abogado_3.jpg" alt="Rubén Atoche">
+        <h3>Rubén Atoche</h3>
+        <p>Especialista en Derecho Corporativo</p>
       </div>
     </div>
   </section>
-  <section id="equipo" class="team section">
-    <div class="container">
-      <h2>Equipo</h2>
-      <div class="team-grid">
-        <div class="team-card"><img src="assets/abogado_1.jpg"><h3>Cristian Armestar</h3></div>
-        <div class="team-card"><img src="assets/abogado_2.jpg"><h3>Claudia Bobadilla</h3></div>
-        <div class="team-card"><img src="assets/abogado_3.jpg"><h3>Rubén Atoche</h3></div>
-      </div>
-    </div>
+
+  <section id="contacto" class="section contacto">
+    <h2>Contáctanos</h2>
+    <form action="mailto:armestarabogados@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
   </section>
-  <section id="contacto" class="contact section">
-    <div class="container">
-      <h2>Contacto</h2>
-      <form action="mailto:armestarabogados@gmail.com" method="POST">
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        <input type="email" name="email" placeholder="Correo electrónico" required>
-        <textarea name="mensaje" placeholder="Mensaje..." required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-  </section>
+
   <footer>
-    <p>© 2025 Armestar & Abogados | Calle Tambogrande Mz T Lote 16-B, Piura</p>
+    <p>© 2025 Armestar & Abogados - Piura | Calle Tambogrande Mz T Lote 16-B, Urb. Monterrico</p>
   </footer>
-  <!-- FontAwesome -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
 </body>
 </html>
