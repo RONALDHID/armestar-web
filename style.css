@@ -15,7 +15,7 @@ nav a { color:#fff; text-decoration:none; font-weight:500; transition:color .3s;
 nav a:hover { color:#caa52c; }
 .cta-btn { background:#caa52c; color:#fff; padding:8px 18px; border-radius:4px; text-decoration:none; }
 /* Hero */
-.hero { position:relative; height:100vh; background:url('assets/hero.jpg') center/cover no-repeat; display:flex; align-items:center; }
+.hero { position:relative; height:80vh; background:url('assets/hero.jpg') center/cover no-repeat; display:flex; align-items:center; }
 .overlay { position:absolute; inset:0; background:rgba(0,0,0,0.6); }
 .hero-content { position:relative; max-width:600px; margin-left:5%; color:#fff; text-align:left; }
 .hero-content h1 { font-size:3rem; margin-bottom:15px; }
