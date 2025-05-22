@@ -25,7 +25,9 @@ body {
   font-weight: 500;
 }
 .hero {
-  background: linear-gradient(rgba(13,27,42,0.8), rgba(13,27,42,0.8)), url('assets/abogado_1.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(13,27,42,0.8), rgba(13,27,42,0.8)), url('assets/abogado_1.jpg') center/contain no-repeat;
+  background-size: cover; /* puedes probar también: contain o 100% auto */
+  background-position: top center; /* o center center */
   color: white;
   padding: 100px 20px;
   text-align: center;
