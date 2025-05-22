@@ -3,8 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;    /* Oculta scroll horizontal y vertical */
-  height: 100%;        /* Asegura que body tenga 100% de altura */
+  overflow-x: hidden;
 }
 /* General Reset */
 * { margin:0; padding:0; box-sizing:border-box; }
